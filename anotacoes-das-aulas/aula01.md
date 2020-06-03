@@ -28,8 +28,8 @@ typeScript - javascript com a possibilidade de acrescentar tipagem
 
 #backend:
 server.ts
-pacotes: express, typescript -D, @types/express -D (contem tipagem para express), ts-node -D(para rodar o servidor), ts-node-dev -D (tipo o nodemon)
-tsc --init (para criar o tsconfig.ts - obrigatório)
+pacotes: *express, typescript -D, @types/express -D (contem tipagem para express), ts-node -D(para rodar o servidor), ts-node-dev -D (tipo o nodemon)
+tsc --init (para criar o tsconfig.ts - obrigatório)*
 
 #frontend:
-npx create-react-app nome-do-app --template=typescript
+*npx create-react-app nome-do-app --template=typescript*
